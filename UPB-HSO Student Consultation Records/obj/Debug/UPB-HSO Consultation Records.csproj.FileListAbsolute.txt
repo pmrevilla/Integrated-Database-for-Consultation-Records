@@ -1,0 +1,51 @@
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\UPB-HSO Student Consultation Records.exe.config
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\UPB-HSO Student Consultation Records.exe
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\UPB-HSO Student Consultation Records.pdb
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\Google.Protobuf.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\Guna.UI2.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\MySql.Data.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Buffers.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Memory.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\Google.Protobuf.pdb
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\Google.Protobuf.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\MySql.Data.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Buffers.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Memory.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB-HSO Consultation Records.csproj.AssemblyReference.cache
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB-HSO Consultation Records.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.AddNewConsultation_updated.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.AddNewPatient.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.AlertBox.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.dashboard.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.DeletedConsultations.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.DeletedPatientRecords.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.EditConsultationInfo_updated.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.EditPatientRecord.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.Login.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.Properties.Resources.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.RecycleBin.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.ViewDatabase.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.ViewPatientRecord2.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.ViewRecentConsultation.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB_HSO_Student_Consultation_Records.ViewSingleConsultation.resources
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB-HSO Consultation Records.csproj.GenerateResource.cache
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB-HSO Consultation Records.csproj.CoreCompileInputs.cache
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB-HSO Consultation Records.csproj.CopyComplete
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB-HSO Student Consultation Records.exe
+C:\Users\Tricia\Documents\DOCS\COLLEGE\3RD YEAR\CMSC 128\HSO-Deployment\UPB-HSO Student Consultation Records\obj\Debug\UPB-HSO Student Consultation Records.pdb

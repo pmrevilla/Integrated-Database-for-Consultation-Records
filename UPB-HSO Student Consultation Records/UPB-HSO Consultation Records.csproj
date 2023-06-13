@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB5CE341-B1D1-48FC-8170-97094EE6D4FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UPB_HSO_Student_Consultation_Records</RootNamespace>
+    <AssemblyName>UPB-HSO Student Consultation Records</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Untitled design %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.23.2.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.23.2\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.5\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.33.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.33\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Pipelines, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.7.0.0\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewConsultation-updated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewConsultation-updated.Designer.cs">
+      <DependentUpon>AddNewConsultation-updated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewPatient.Designer.cs">
+      <DependentUpon>AddNewPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlertBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlertBox.Designer.cs">
+      <DependentUpon>AlertBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB.cs" />
+    <Compile Include="DeletedConsultations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletedConsultations.Designer.cs">
+      <DependentUpon>DeletedConsultations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletedPatientRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletedPatientRecords.Designer.cs">
+      <DependentUpon>DeletedPatientRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditConsultationInfo-updated.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditConsultationInfo-updated.Designer.cs">
+      <DependentUpon>EditConsultationInfo-updated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditPatientRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditPatientRecord.Designer.cs">
+      <DependentUpon>EditPatientRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecycleBin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecycleBin.Designer.cs">
+      <DependentUpon>RecycleBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDatabase.Designer.cs">
+      <DependentUpon>ViewDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPatientRecord2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPatientRecord2.Designer.cs">
+      <DependentUpon>ViewPatientRecord2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRecentConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRecentConsultation.Designer.cs">
+      <DependentUpon>ViewRecentConsultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSingleConsultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSingleConsultation.Designer.cs">
+      <DependentUpon>ViewSingleConsultation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddNewConsultation-updated.resx">
+      <DependentUpon>AddNewConsultation-updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewPatient.resx">
+      <DependentUpon>AddNewPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlertBox.resx">
+      <DependentUpon>AlertBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletedConsultations.resx">
+      <DependentUpon>DeletedConsultations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletedPatientRecords.resx">
+      <DependentUpon>DeletedPatientRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditConsultationInfo-updated.resx">
+      <DependentUpon>EditConsultationInfo-updated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditPatientRecord.resx">
+      <DependentUpon>EditPatientRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RecycleBin.resx">
+      <DependentUpon>RecycleBin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDatabase.resx">
+      <DependentUpon>ViewDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPatientRecord2.resx">
+      <DependentUpon>ViewPatientRecord2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRecentConsultation.resx">
+      <DependentUpon>ViewRecentConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSingleConsultation.resx">
+      <DependentUpon>ViewSingleConsultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-key-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-rounded-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Consultation %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Background %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backgrounds %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Background %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cancel-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-box-important-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-box-important-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checkmark.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checkmark-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical records icon-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new patient icon-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new patient icon 2-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new consultation icon-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recent consultations icon-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recent consultations icon 2-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recent consultations icon 3-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view patient icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recycle bin-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient records icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient records icon 2 white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultations icon white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultations icon white cropped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-search-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-username-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backgrounds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-medical-records-66.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-consultation-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-most-recent-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-recycle-bin-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-medical-records-661.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-person-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backgrounds1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export icon-white.png" />
+    <Content Include="Untitled design %281%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
